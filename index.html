@@ -4,30 +4,29 @@
 <head>
   <title>simple crystal game</title>
 
- <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 
-</head>
-<body>
+  </head>
+  <body style = "background: url(assets/images/crystals.jpg)"> 
 
   <h1>Number to Guess: <span id="numberToGuess"></span></h1>
+  <br>
   <h2>Total Score: Click a Crystal to get Started! <span id="totalScore"></span></h2>
+  <br>
 
   <!-- Note that this div is now empty. We will fill it dynamically -->
   <div id="crystals"></div>
-  <div id="won">How many times you've won:</div>
   <br>
-  <div id="lose">How many times you've lost:</div>
+  <div><div id="won">How many times you've won: </div>
+  <br>
+  <div id="lose">How many times you've lost: </div>
+</div>
+  
   <br>
  
-
-  <!-- JAVASCRIPT  -->
-  <!-- ========================================= -->
   <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
   <script type="text/javascript" src=assets/javascript/game.js></script>
 
-  <script type="text/javascript">  
-  
-  </script>
 </body>
 </html>

@@ -1,4 +1,50 @@
 .crystal-image {
-      width: 300px;
-      height: 300px;
+      width: 200px;
+      height: 200px;
     }
+
+ h1{
+ 	margin: auto;
+    width: 50%;
+    border: 3px solid green;
+    padding: 10px;
+    text-align: center;
+ }
+
+ h2{
+ 	margin: auto;
+    width: 50%;
+    border: 3px solid green;
+    padding: 10px;
+    text-align: center;
+ }
+  #crystals{
+ 	margin: 0 auto;
+    width: 75%;
+    padding: 0px;
+    text-align: center;
+ }
+
+ .crystal-image{
+ 	margin: 10px;
+    border: 3px solid green;
+    padding: 0px;
+    text-align: center;
+ }
+ #won{
+ 	width: 48%;
+ 	font-size: 25px;
+ 	margin: auto;
+    border: 3px solid green;
+    padding: 0px;
+    text-align: center;
+ }
+
+ #lose{
+ 	width: 48%;
+ 	margin: auto;
+ 	font-size: 25px;
+    border: 3px solid green;
+    padding: 0px;
+    text-align: center;
+ }
